@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+      <script src="https://kit.fontawesome.com/25d2110bf1.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<header>
+<img src="output-onlinegiftools (1).gif" class="icon" style="width:100px;height:100px;">
+
+    <header class="panel center opacity">
+        <h1 class="name"><i>Elizahmendozart</i></h1>
+        
+        <a href="http://127.0.0.1/formm/form.php" class="bar-item button" style="margin: 10px">Home</a>
+        <a href="http://127.0.0.1/formm/gallery.php" class="bar-item button" style="margin: 10px">Gallery</a>
+        <a href="http://127.0.0.1/formm/guidelines.php" class="bar-item-button hide-small" style="margin: 10px">Guidelines</a>
+        <a href="http://127.0.0.1/formm/aboutme.php" class="bar-item button light-grey" style="margin: 10px">About Me</a> 
+        <a href="http://127.0.0.1/formm/contact.php" class="bar-item button hide-small" style="margin: 10px">Contact</a>
+        <a href="http://127.0.0.1/formm/faq.php" class="bar-item button hide-small" style="margin: 10px">FAQ</a>
+          </div>
+        </div>
+    </header>
+<br><br>
+<body>
+  
+<div id="About"> 
+
+  <h1 style = "text-shadow:2px 2px 4px #ffffff"><b>Home</b></h1> <br><br>
+
+      <div class="gallery">
+      
+        <img src="belle.JPEG" alt="Belle from Beauty and the Beast" style="width:20%; padding: 10px">
+        <img src="IMG_20200122_175632.jpg" alt= "Blue" style="width:20%; padding: 10px">
+        <img src="Screenshot 2023-05-19 211621.png" alt="Art" style="width:14%;padding:10px">
+          <img src="jasmine.JPEG" style="width:20%;padding: 10px">
+          <img src="IMG_20191212_094738~2.jpg" style="width:20%">
+          <img src="girl.JPEG" style="width:21%;padding: 10px">
+          <img src="IMG_20191114_103753_mh1573716219705.jpg" style="width:22%;padding: 10px">
+          <img src="Screenshot 2023-05-19 224127.png" style="width:22%;padding:10px">
+          <img src="IMG_20200529_153812.jpg" style="width: 27%;padding: 10px">
+          <img src="IMG_20191221_175258~2_mh1576936553414.jpg" style="width:22%;padding: 10px">          
+          <img src="raya.JPEG" style="width:21%;padding: 10px">
+          <img src="Annotation 2020-02-18 112605.png" style="width:23%;padding:10px">
+          <img src="Screenshot 2023-05-19 211137.png" style="width:20%;padding:10px">          
+        </div>
+      </div>
+      
+
+<br><br><br><br><br><br><br>
+
+  <div class="about-col-1">
+<br><br>
+      <a href="http://127.0.0.1/formm/aboutme.php" style = "border:none;border-radius:none;padding:none;float:left;">
+        <img src="MTXX_MH20230514_104509244.jpg" alt="pic of me" class="image" style="float:left;width:300px;height:400px;"></a>
+    
+      <div class="about-col-2">
+
+      <h1 class="sub-title" style="font-size: 45px;"><i>Hello!</i></h1>
+
+      <p class="about-col-2" style="font-size: 20px;"><i><b>Welcome to my official website. Click the photo to learn more about me. Feel free to navigate this site to learn a bit more about what I do and if you're interested I look forward to working with you soon!</b></i></p>
+    
+  <div class="tab-titles">
+  <p class="tab-links active-link" style= "margin-left: 100px; margin-right: 50px" onclick="opentab('Skills')">Skills</p>
+  <p class="tab-links" style= "margin-left: 50px; margin-right: 50px" onclick="opentab('Experience')">Experience</p>
+  <p class="tab-links" style= "margin-left: 50px; margin-right: 0px" onclick="opentab('Education')">Education</p>
+</div>
+
+<div class = "tab-contents active-tab" id="Skills">
+  <ul>
+    <li>Traditional Art</li>
+    <li>Digital Art/Video & Photo Editing<br></li>
+    <li>Fashion Design</li>
+    <li>Web Design</li>
+    </ul>
+</div>
+
+<div class = "tab-contents" id="Experience">
+  <ul>
+    <li>Freelance Artist</li>
+    <li>Children's Book Illustrator</li>
+    <li>Mural Artist</li><br>
+    </ul>
+</div> 
+
+<div class = "tab-contents" id="Education">
+  <ul>
+    <li>BathSpa University</li>
+    <li>Istituto Marangoni London</li>
+    <li>American International School in Abu Dhabi</li><br>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<br><br><br><br><br><br>
+
+<!-----contact----------->
+<div class = "divider" style="background-image: url(wp6262702.jpg); background-size: cover;">
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+<h1 class="sub-title" style="font-size: 40px;margin-right:50px;">Contact Me</h1>
+<p><i class="fas fa-paper-plane"></i><b> elizahsegismundo@gmail.com </b></p>
+<p><i class="fas fa-phone-square-alt"></i><b> +9711231234</b></p>
+<div class = "social-icons">
+  <a href="https://www.facebook.com/elizahmendoza17" i class="fa fa-facebook-official hover-opacity large" style="border: none;";></i></a>
+  <a href="https://twitter.com/elizahmendozart" i class="fa fa-twitter hover-opacity large" style="border: none"></i></a>
+  <a href="https://www.linkedin.com/in/elizah-mendoza-513b661b9/" i class="fa fa-linkedin hover-opacity w3-large" style="border: none"></i></a>
+</div>
+
+<a href="file:///C:/Users/eliza/OneDrive/Documents/uni%20stuff/updated%20CV%20Elizah%20Mendoza%20new.pdf" i class="fa-solid fa-file-arrow-down"></i>  Download CV</a>
+
+      </div>
+      <div class="contact-right">
+<form name="submit-to-google-sheet">
+  <input type="Name" name="Name" placeholder="Your Name" required style="width: 100%;"><br>
+  <input type="Email" name="Email" placeholder="Your Email" required><br>
+  <textarea name="Message" rows="6" placeholder="Your Message"></textarea><br>
+  <input type="Submit" value="Submit" style="width: 100%;">
+  
+</form>
+<span id="msg"></span>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <br><br><br><br><br>
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+  tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+} 
+
+const scriptURL = '<https://script.google.com/macros/s/AKfycbwaSO26sirCO8i1QaYSktGuCfOpVmTjinT7N47gekTrVDOqwo_cTXi1XooVFGd0GfPj/exec>'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML= "Message sent successfully!"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },10000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+<h1 class="sub-title" style="font-size: 20px;text-align: center;text-shadow: 2px 2px 4px #c63791;margin-left: 1%;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php" style="text-align: center;">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
+
+</body>
+
+<footer> 
+  <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
+  <p><i class="fa fa-phone fa-fw-xxlarge-margin"></i> Phone: +971 501231234</p>
+  <p><i class="fa fa-light fa-envelope fa-fw-xxlarge-margin"> </i> Email: elizahsegismundo@gmail.com</p>
+  <br>
+  <a href="https://www.facebook.com/elizahmendoza17" i class="fa fa-facebook-official w3-hover-opacity w3-large" style="border: none"; style="border-radius: none"; style="padding: none";></i></a>
+  <a href="https://www.instagram.com/elizahmendoza" i class="fa fa-instagram w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.pinterest.com/elizahmendoza/" i class="fa fa-pinterest-p w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://twitter.com/elizahmendozart" i class="fa fa-twitter w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.linkedin.com/in/elizah-mendoza-513b661b9/" i class="fa fa-linkedin w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.etsy.com/shop/elizahmendozart" i class="fa fa-etsy w3-hover-opacity w3-large" style="border:none"></i></a>
+  <div class="copyright">
+    <p><i>Copyright ⓒ Elizahmendozart. Made with <i class= "fas fa-heart"></i></p>
+</footer>
+
+
+</body>
+</html>
