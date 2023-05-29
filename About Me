@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+      <script src="https://kit.fontawesome.com/25d2110bf1.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<header>
+<img src="output-onlinegiftools (1).gif" alt="icon" style="width:100px;height:100px;">
+
+    <header class="panel center opacity">
+        <h1 class="name"><i>Elizahmendozart</i></h1>
+        
+        <a href="http://127.0.0.1/formm/form.php" class="bar-item button" style="margin: 10px">Home</a>
+        <a href="http://127.0.0.1/formm/gallery.php" class="bar-item button" style="margin: 10px">Gallery</a>
+        <a href="http://127.0.0.1/formm/guidelines.php" class="bar-item-button hide-small" style="margin: 10px">Guidelines</a>
+        <a href="http://127.0.0.1/formm/aboutme.php" class="bar-item button light-grey" style="margin: 10px">About Me</a> 
+        <a href="http://127.0.0.1/formm/contact.php" class="bar-item button hide-small" style="margin: 10px">Contact</a>
+        <a href="http://127.0.0.1/formm/faq.php" class="bar-item button hide-small" style="margin: 10px">FAQ</a>
+          </div>
+        </div>
+      </header> 
+      
+<br><br>
+
+<body>
+
+<div id="About"> 
+
+  <h1 style = "text-shadow:2px 2px 4px #ffffff;font-size: 30px"><b>About Me</b></h1> <br><br>
+
+  <div class = "divider" style="background-image: url(wp6262702.jpg); background-size: cover;">
+
+    <div class="about-col-1" style="padding: 30px;">
+
+        <img src="MTXX_MH20230514_104509244.jpg" style="float:left;width:300px;height:400px;"></div>
+      
+        <div class="about-col-2"></div>
+
+        <h1 class="sub-title" style="text-shadow: 2px 2px 4px #c63791;"><i>Hello!</i></h1>
+      
+        <p class="about-col-2" style="margin-left: 35%;font-size: 20px;"><i><b>My name is Elizah Mendoza and I'm a Filipino artist living in Abu Dhabi. When I'm not creating something, I like to take care of my plants and dog, travel, crochet, do music, and work on my fitness. In the field of art, I am mostly inspired by Vincent Van Gogh’s works. He inspires me as an artist because I can relate to his imperfections. He proves to me that creativity doesn’t require you to be perfect; all one has to do is to be consistent and hardworking. </b></i></p>
+        <br><br><br><br><br>
+
+</div>
+        <div class="tab-titles">
+         <span><p class="tab-links active-link" style= "font-size:25px;color:#a12373;text-shadow: 1px 1px white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align: center;" onclick= "opentab('Skills')">Skills</p></span>
+         <span><p class="tab-links" style= "font-size:25px;color:#a12373;text-shadow: 1px 1px white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align:center;" onclick="opentab('Experience')">Experience</p></span>
+         <span><p class="tab-links" style= "font-size:25px;color:#a12373;text-shadow: 1px 1px white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align:center;"  onclick="opentab('Education')">Education</p></span>
+        </div>
+        <img src="Untitled_design__1_-removebg-preview.png" style= "width:400px; height:400px; float: right;margin-right:10%;">
+        <div class = "tab-contents active-tab" id="Skills">
+          <ul>
+            <li><span style="color:rgb(162, 36, 97);text-shadow: 1px 1px #ffffff;">Traditional Art:</span><br><br>Pencil, Acrylic, Oil, Watercolor</li><br>
+            <li><span style="color:rgb(162, 36, 97);text-shadow: 1px 1px #ffffff;">Digital Art/Video & Photo Editing:</span><br><br>Ibis Paint, Adobe Illustrator, Adobe Photoshop, Adobe Premiere Pro</li><br>
+            <li><span style="color:rgb(162, 36, 97);text-shadow: 1px 1px #ffffff;">Fashion Design:</span><br><br>Fashion Illustration, Textile Design, Garment Construction</li><br>
+            <li><span style="color:rgb(162, 36, 97);text-shadow: 1px 1px #ffffff;">Web Design:</span><br><br>HTML, CSS, JavaScript</li>
+            </ul>
+        </div>
+        <div class = "tab-contents" id="Experience">
+          <ul>
+            <li><span>Freelance Artist:</span><br>Elizahmendozart</li><br>
+            <li><span>Children's Book Illustrator:</span><br>World Literacy Foundation</li><br>
+            <li><span>Mural Artist:</span><br>American International School in Abu Dhabi</li><br>
+            </ul>
+        </div> 
+        
+        <div class = "tab-contents" id="Education">
+          <ul>
+            <li><span>University:</span><br>BathSpa University Abu Dhabi</li><br>
+            <li><span>University:</span><br>Istituto Marangoni London</li><br>
+            <li><span>High School:</span><br>American International School in Abu Dhabi</li><br>
+            </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <br><br><br>
+
+        <script>
+        
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+        </script>
+        <br><br><br>
+    </body>
+    <br><br><br>
+
+    <h1 class="sub-title" style="font-size: 20px;text-align: center;margin-left: 1%;text-shadow: 2px 2px 4px #c63791;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
+    <br><br><br><br>
+    <footer> 
+    <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
+    <p><i class="fa fa-phone fa-fw-xxlarge-margin"></i> Phone: +971 501231234</p>
+    <p><i class="fa fa-light fa-envelope fa-fw-xxlarge-margin"> </i> Email: elizahsegismundo@gmail.com</p>
+    <br>
+    <a href="https://www.facebook.com/elizahmendoza17" i class="fa fa-facebook-official w3-hover-opacity w3-large" style="border: none"; style="border-radius: none"; style="padding: none";></i></a>
+    <a href="https://www.instagram.com/elizahmendoza" i class="fa fa-instagram w3-hover-opacity w3-large" style="border: none"></i></a>
+    <a href="https://www.pinterest.com/elizahmendoza/" i class="fa fa-pinterest-p w3-hover-opacity w3-large" style="border: none"></i></a>
+    <a href="https://twitter.com/elizahmendozart" i class="fa fa-twitter w3-hover-opacity w3-large" style="border: none"></i></a>
+    <a href="https://www.linkedin.com/in/elizah-mendoza-513b661b9/" i class="fa fa-linkedin w3-hover-opacity w3-large" style="border: none"></i></a>
+    <a href="https://www.etsy.com/shop/elizahmendozart" i class="fa fa-etsy w3-hover-opacity w3-large" style="border:none"></i></a>  
+    <div class="copyright">
+      <p><i>Copyright ⓒ Elizahmendozart. Made with <i class= "fas fa-heart"></i></p>
+    </div>
+  </footer>
+</html>
