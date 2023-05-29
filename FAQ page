@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+      <script src="https://kit.fontawesome.com/25d2110bf1.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Website</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+<img src="output-onlinegiftools (1).gif" alt="icon" style="width:100px;height:100px;">
+
+    <header class="panel center opacity">
+      <h1 class="name"><i>Elizahmendozart</i></h1>
+
+      <a href="http://127.0.0.1/formm/form.php" class="bar-item button" style="margin: 10px">Home</a>
+        <a href="http://127.0.0.1/formm/gallery.php" class="bar-item button" style="margin: 10px">Gallery</a>
+        <a href="http://127.0.0.1/formm/guidelines.php" class="bar-item-button hide-small" style="margin: 10px">Guidelines</a>
+        <a href="http://127.0.0.1/formm/aboutme.php" class="bar-item button light-grey" style="margin: 10px">About Me</a> 
+        <a href="http://127.0.0.1/formm/contact.php" class="bar-item button hide-small" style="margin: 10px">Contact</a>
+        <a href="http://127.0.0.1/formm/faq.php" class="bar-item button hide-small" style="margin: 10px">FAQ</a>
+          </div>
+        </div>
+      </header> <br><br>
+
+      <h1 style = "text-shadow:2px 2px 4px #ffffff; font-size: 30px;"><b>Frequently Asked Questions</b></h1> <br><br>
+
+      <div class="faq">
+        <b>How do I commission an artwork?</b><br><br>
+        <i>Click on the "Guidelines" Tab and download the form at the bottom of the page.</i><br><br><br><br><br>
+
+        <b>Can the artwork be personalised?</b><br><br>
+        <i>Definitely! Everything can be fully personalized and customized according to individual specifications – body pose, attire, background etc. Additionally, if you wish, a brief caption or description can written on it.</i><br><br><br><br><br>
+        
+        <b>Are the artworks handmade?</b><br><br>
+        <i>All artworks are 100% hand-drawn with love by me using a digital tablet or a traditional medium.</i><br><br><br><br><br>
+        
+        <b>Can I include a background?</b><br><br>
+       <i>You can choose either a simple or detailed background. You can include a photo of the background in your email.<br>
+        (*Please note that the complexity will affect the total price.)</i><br><br><br><br><br>
+        <img src= "output-onlinegiftools (6).gif" style= "width:300px; height:300px; float: right;">
+        <b>Can I combine individual photos?</b><br><br> 
+        <i> Yes! You can send individual photos and I can draw them together for you.</i><br><br><br><br><br> 
+
+        <b>How do you deliver physical artworks?</b><br><br>
+        
+       <i>♡ International shipping is available<br><br>
+          ♡ Shipping price depends on the distance, speed and courier chosen. You will be consulted by the artist to discuss which courier suits best for you.<br><br>
+          ♡ If anything comes up that will slow the progress of the initially estimated delivery time I will let you know ASAP<br><br>
+          ♡ You will receive tracking updates on your package once it's shipped.<br><br></i> 
+          <br><br><br>
+        <b>How do you deliver digital artworks?</b><br><br>
+        <i>♡ You will receive a downloadable JPEG file that can be used digitally or for a high-quality print.<br><br>
+          ♡ If you have any special requirements for dimensions, please let me know.</b></i><br><br>
+        </div>
+<br><br><br><br><br>
+<h1 class="sub-title" style="font-size: 20px;text-align: center;margin-left: 1%;text-shadow: 2px 2px 4px #c63791;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/guidelines.php"style="text-align: center;">Guidlines <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
+<footer> 
+  <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
+  <p><i class="fa fa-phone fa-fw-xxlarge-margin"></i> Phone: +971 501231234</p>
+  <p><i class="fa fa-light fa-envelope fa-fw-xxlarge-margin"> </i> Email: elizahsegismundo@gmail.com</p>
+  <br>
+  <a href="https://www.facebook.com/elizahmendoza17" i class="fa fa-facebook-official w3-hover-opacity w3-large" style="border: none"; style="border-radius: none"; style="padding: none";></i></a>
+  <a href="https://www.instagram.com/elizahmendoza" i class="fa fa-instagram w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.pinterest.com/elizahmendoza/" i class="fa fa-pinterest-p w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://twitter.com/elizahmendozart" i class="fa fa-twitter w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.linkedin.com/in/elizah-mendoza-513b661b9/" i class="fa fa-linkedin w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.etsy.com/shop/elizahmendozart" i class="fa fa-etsy w3-hover-opacity w3-large" style="border:none"></i></a>
+  <div class="copyright">
+    <p><i>Copyright ⓒ Elizahmendozart. Made with <i class= "fas fa-heart"></i></p>
+  </div>
+</footer>
+</html>
