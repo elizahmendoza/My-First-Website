@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+      <script src="https://kit.fontawesome.com/25d2110bf1.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Website</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+<img src="output-onlinegiftools (1).gif" alt="icon" style="width:100px;height:100px;">
+
+    <header class="panel center opacity">
+      <h1 class="name"><i>Elizahmendozart</i></h1>
+        
+      <a href="http://127.0.0.1/formm/form.php" class="bar-item button" style="margin: 10px">Home</a>
+        <a href="http://127.0.0.1/formm/gallery.php" class="bar-item button" style="margin: 10px">Gallery</a>
+        <a href="http://127.0.0.1/formm/guidelines.php" class="bar-item-button hide-small" style="margin: 10px">Guidelines</a>
+        <a href="http://127.0.0.1/formm/aboutme.php" class="bar-item button light-grey" style="margin: 10px">About Me</a> 
+        <a href="http://127.0.0.1/formm/contact.php" class="bar-item button hide-small" style="margin: 10px">Contact</a>
+        <a href="http://127.0.0.1/formm/faq.php" class="bar-item button hide-small" style="margin: 10px">FAQ</a>
+      
+          </div>
+        </div>
+      </header> 
+
+      <br><br>
+
+      <h1 style = "text-shadow:2px 2px 4px #ffffff;"><b>Gallery</b></h1> 
+
+      <br><br>
+
+      <div class="gallery">
+
+        <h1 class="sub-title" style="font-size: 20px;">Head Portraits</h1>
+        <img src="Untitled135_20210203144108.jpg" style="width:25%;padding: 10px">
+        <img src="Untitled71_20200829200058.PNG" style="width:24%;padding: 10px">
+        <img src="Untitled78_20200914012326.PNG" style="width:24%;padding: 10px"><br>
+        <img src="Untitled83_20201030023418.PNG" style="width:23%;padding: 10px">
+        <img src="IMG_6129.JPG" style="width:23%;padding: 10px">
+        <img src="Untitled110_20201127165623.PNG" style="width:35%;padding: 10px">
+
+
+        <h1 class="sub-title" style="font-size: 20px;">Bust Portraits</h1>
+        <img src="belle.JPEG" alt="Belle from Beauty and the Beast" style="width:21%; padding: 10px">
+        <img src="jasmine.JPEG" style="width:21%;padding: 10px">
+        <img src="girl.JPEG" style="width:21%;padding: 10px"><br>
+        <img src="raya.JPEG" style="width:21%;padding: 10px">
+        <img src="Untitled151_20210828233519.PNG" style="width:21%;padding: 10px">
+        <img src="Untitled85_20201106161838.jpg" style="width:21%;padding: 10px"><br>
+        <img src="Untitled85_20201106161950.jpg" style="width:21%;padding: 10px">
+        <img src="Untitled85_20201106162150.jpg" style="width:21%;padding: 10px">
+        <img src="Untitled85_20201106162748.jpg" style="width:21%;padding: 10px">
+
+
+        <h1 class="sub-title" style="font-size: 20px;">Couple/Family Portraits</h1>
+        <img src="Untitled38_20200712210323.jpg" style="width:32%;padding: 10px">
+        <img src="IMG_5760.jpg" style="width:21%;padding: 10px">
+        <img src="image03.jpg" style="width:20%;padding:10px">
+
+        <h1 class="sub-title" style="font-size: 20px;">Full Body Fashion Portraits</h1>
+        <img src="Screenshot 2023-05-19 211621.png" alt="Art" style="width:16%;padding:10px">
+        <img src="Screenshot 2023-05-19 224127.png" style="width:23%;padding:10px">
+        <img src="Screenshot 2023-05-19 211137.png" style="width:21%;padding: 10px">    <br>   
+        <img src="Untitled142_20210901180018.jpg" alt="Art" style="width:24%;padding:10px">
+        <img src="Untitled142_20210901181815.PNG" style="width:23%;padding:10px">
+        <img src="Untitled142_20210901191215.PNG" style="width:24%;padding: 10px"><br>
+        <img src="Untitled142_20210901191341.PNG" alt="Art" style="width:23%;padding:10px">
+        <img src="Untitled142_20210901192104.jpg" style="width:23%;padding:10px">
+        <img src="Untitled143_20210901192805.jpg" style="width:25%;padding: 10px">
+
+        <h1 class="sub-title" style="font-size: 20px;">Abstract Art</h1>
+        <img src="IMG_20200122_175632.jpg" alt= "Blue" style="width:20%; padding: 10px">
+          <img src="IMG_20191212_094738~2.jpg" style="width:20%">
+          <img src="IMG_20191114_103753_mh1573716219705.jpg" style="width:22%;padding: 10px">
+          <img src="IMG_20200529_153812.jpg" style="width: 27%;padding: 10px">
+          <img src="IMG_20191221_175258~2_mh1576936553414.jpg" style="width:23%;padding: 10px">          
+          <img src="Annotation 2020-02-18 112605.png" style="width:23%;padding:10px">
+          <img src="Screenshot_20230519-225630_Instagram.jpg" style="width:22%;padding:10px">
+          <img src="Untitled67_20200816123356.PNG" style="width:22%;padding:10px">
+          <img src="Reflection_20200906172434.PNG" style="width:24%;padding:10px">
+          <img src="Untitled64_20200812134409.jpg" style="width:23%;padding:10px">
+          <img src="Untitled66_20200813010631.jpg" style="width:19%;padding:10px">
+          <img src="IMG_6121.JPG" style="width:23%;padding:10px">
+          <img src="Untitled6_20200710121958.PNG" style="width:40%;padding:10px">
+          <img src="IMG_5936.jpg" style="width:35%;padding:10px"><br>
+          <img src="IMG_5671.jpg" style="width:23%;padding:10px">
+          <img src="IMG_5661.jpg" style="width:24%;padding:10px">
+          <img src="B6F3CC11-0DD7-4472-8266-BCF40BDB7EE5.jpg" style="width:23%;padding:10px"><br>
+          <img src="4A8AAC11-745D-476A-A9B4-75814FBEE1C9-7983-0000062D68827EF3.JPG" style="width:23%;padding:10px">
+          <img src="2023-04-30 (1).jpg" style="width:23%;padding:10px">
+          <img src="2023-04-30 (2).jpg" style="width:23%;padding:10px">
+          <img src="2023-04-30 (3).jpg" style="width:23%;padding:10px">
+
+
+        </div>
+    
+      <br><br><br><br><br>
+      <h1 class="sub-title" style="font-size: 20px;text-align: center;margin-left: 1%;text-shadow: 2px 2px 4px #c63791;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php"style="text-align: center;">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
+      <footer>
+        <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
+        <p><i class="fa fa-phone fa-fw-xxlarge-margin"></i> Phone: +971 501231234</p>
+        <p><i class="fa fa-light fa-envelope fa-fw-xxlarge-margin"> </i> Email: elizahsegismundo@gmail.com</p>
+        <br>
+        <a href="https://www.facebook.com/elizahmendoza17" i class="fa fa-facebook-official w3-hover-opacity w3-large" style="border: none"; style="border-radius: none"; style="padding: none";></i></a>
+        <a href="https://www.instagram.com/elizahmendoza" i class="fa fa-instagram w3-hover-opacity w3-large" style="border: none"></i></a>
+        <a href="https://www.pinterest.com/elizahmendoza/" i class="fa fa-pinterest-p w3-hover-opacity w3-large" style="border: none"></i></a>
+        <a href="https://twitter.com/elizahmendozart" i class="fa fa-twitter w3-hover-opacity w3-large" style="border: none"></i></a>
+        <a href="https://www.linkedin.com/in/elizah-mendoza-513b661b9/" i class="fa fa-linkedin w3-hover-opacity w3-large" style="border: none"></i></a>
+        <a href="https://www.etsy.com/shop/elizahmendozart" i class="fa fa-etsy w3-hover-opacity w3-large" style="border:none"></i></a>    
+        <div class="copyright">
+          <p><i>Copyright ⓒ Elizahmendozart. Made with <i class= "fas fa-heart"></i></p>
+        </div>
+      </footer>
+</html>
