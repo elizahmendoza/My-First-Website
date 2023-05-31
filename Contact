@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+      <script src="https://kit.fontawesome.com/25d2110bf1.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="Javascript.js"></script>  
+    </head>
+
+<body>
+
+<img src="output-onlinegiftools (1).gif" alt="icon" style="width:100px;height:100px;">
+<!-- HEADER -->
+    <header class="panel center opacity">
+
+      <h1 class="name"><i>Elizahmendozart</i></h1>
+<!-- Web Pages-->
+      <a href="http://127.0.0.1/formm/form.php" class="bar-item button" style="margin: 10px">Home</a>
+        <a href="http://127.0.0.1/formm/gallery.php" class="bar-item button" style="margin: 10px">Gallery</a>
+        <a href="http://127.0.0.1/formm/guidelines.php" class="bar-item-button hide-small" style="margin: 10px">Guidelines</a>
+        <a href="http://127.0.0.1/formm/aboutme.php" class="bar-item button light-grey" style="margin: 10px">About Me</a> 
+        <a href="http://127.0.0.1/formm/contact.php" class="bar-item button hide-small" style="margin: 10px">Contact</a>
+        <a href="http://127.0.0.1/formm/faq.php" class="bar-item button hide-small" style="margin: 10px">FAQ</a>
+      <br><br><br>
+<!--Connection to Database-->
+        <form method="post" action="Database.php"></form>
+        </div>
+<h1 style = "text-shadow:2px 2px 4px #ffffff;"><b>Contact</b></h1>
+
+<br>
+
+</header> 
+  <!--Main BODY-->
+  <div class="contact">
+    <p style="color: rgb(110, 13, 68); font-size: 20px;"><i><b>Lets get in touch! <br><br> Send a message or follow me on my socials to stay updated</b></i></p>
+    <form name="submit-to-google-sheet">
+  <input type="Name" name="Name" placeholder="Your Name" required style="width: 50%;"><br>
+  <input type="Email" name="Email" placeholder="Your Email" required style="width: 50%;"><br>
+  <input type="Subject" name="Subject" placeholder="The Subject" required style="width: 50%;"><br>
+  <textarea name="Message" rows="6" placeholder="Your Message" required style="width: 50%;"></textarea><br>
+  <input type="Submit" value="Submit" style="width: 50%;">
+  
+</form>
+<span id="msg"></span>
+<img src="9-removebg-preview.png" style= "width:200px; height:200px; float: center;">
+</div>
+  </div></div>
+  <br><br><br><br><br>
+
+  <h1 class="sub-title" style="font-size: 20px;text-align: center;margin-left: 1%;text-shadow: 2px 2px 4px #c63791;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php"style="text-align: center;">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
+  <br><br><br><br><br>
+<button onclick="scrollUp()" class="top">Scroll to Top</button>
+  <!--Footer-->
+<footer> 
+  <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
+  <p><i class="fa fa-phone fa-fw-xxlarge-margin"></i> Phone: +971 501231234</p>
+  <p><i class="fa fa-light fa-envelope fa-fw-xxlarge-margin"> </i> Email: elizahsegismundo@gmail.com</p>
+  <br>
+  <a href="https://www.facebook.com/elizahmendoza17" i class="fa fa-facebook-official w3-hover-opacity w3-large" style="border: none"; style="border-radius: none"; style="padding: none";></i></a>
+  <a href="https://www.instagram.com/elizahmendoza" i class="fa fa-instagram w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.pinterest.com/elizahmendoza/" i class="fa fa-pinterest-p w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://twitter.com/elizahmendozart" i class="fa fa-twitter w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.linkedin.com/in/elizah-mendoza-513b661b9/" i class="fa fa-linkedin w3-hover-opacity w3-large" style="border: none"></i></a>
+  <a href="https://www.etsy.com/shop/elizahmendozart" i class="fa fa-etsy w3-hover-opacity w3-large" style="border:none"></i></a>
+  <div class="copyright">
+    <p><i>Copyright ⓒ Elizahmendozart. Made with <i class= "fas fa-heart"></i></p>
+  </div>
+</footer>
+</div>
+</html>
