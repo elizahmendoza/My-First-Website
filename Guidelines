@@ -48,6 +48,7 @@
         <img src= "output-onlinegiftools (7).gif" style= "width:200px; height:200px; float: center;"> <br><br><br><br><br>
         <h1 class="sub-title" style="font-size: 20px;text-align: center;margin-left: 1%;text-shadow: 2px 2px 4px #c63791;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php"style="text-align: center;">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
         <br><br><br><br>
+<button onclick="scrollUp()" class="top">Scroll to Top</button>
       </body>
         <footer> 
           <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
