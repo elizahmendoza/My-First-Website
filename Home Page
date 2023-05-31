@@ -12,7 +12,6 @@
 <!-- HEADER -->
 <header>
 <img src="output-onlinegiftools (1).gif" class="icon" style="width:100px;height:100px;">
-
     <header class="panel center opacity">
         <h1 class="name"><i>Elizahmendozart</i></h1>
         	<!-- Web Pages-->
@@ -28,9 +27,10 @@
         </div>
     </header>
 <br><br>
-<body>
+
   <!--Main BODY-->
   <!--Mini Gallery-->
+<body>
 <div id="About"> 
 
   <h1 style = "text-shadow:2px 2px 4px #ffffff"><b>Home</b></h1> <br><br>
@@ -52,12 +52,13 @@
           <img src="Screenshot 2023-05-19 211137.png" style="width:20%;padding:10px">          
         </div>
       </div>
+      <a href="gallery.php" style= "padding: 20px;font-size:20px;width:30%;"><b>See More</b></a>
       
-
-<br><br><br><br><br><br><br>
+      <div id="quote" style="padding: 100px; background-color: rgb(239, 194, 221);margin-top:5%; font-size: 30px; color: #971668;"></div>
 
   <!--Mini About-->
-  <div class="about-col-1" style= "padding: 20px;background-image:url(816760.jpg);background-size: cover;background-position: center;margin:0px;">
+
+<div class="about-col-1" style= "padding: 20px;background-image:url(816760.jpg);background-size: cover;background-position: center;margin:0px;">
 <br><br>
       <a href="http://127.0.0.1/formm/aboutme.php" style = "border:none;border-radius:none;padding:none;float:left;">
         <img src="MTXX_MH20230514_104509244.jpg" alt="pic of me" class="image" style="float:left;width:300px;height:400px;opacity:"></a>
@@ -98,6 +99,7 @@
     <li>American International School in Abu Dhabi</li><br>
     </ul>
 </div>
+<a href="aboutme.php" style= "padding: 10px;font-size:15px;width:15%;"><i>See More</i></a>
 </div>
 </div>
 </div>
@@ -138,6 +140,45 @@
 
   <br><br><br><br><br>
 <h1 class="sub-title" style="font-size: 20px;text-align: center;text-shadow: 2px 2px 4px #c63791;margin-left: 1%;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php" style="text-align: center;">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
+
+<script>
+  
+  (function() {
+  var arrayQ = [{
+    quote: "'The worst enemy to creativity is self-doubt.'<br><br>-Sylvia Plath"
+  }, {
+    quote: "'Though I am often in the depths of misery, there is still calmness, pure harmony, and music inside me.'<br><br>-Vincent Van Gogh"
+  }, {
+    quote: "'I have nature and art and poetry, and if that is not enough, what is enough?'<br><br>-Vincent Van Gogh"
+  }, {
+    quote: "'Art is when you hear a knocking from your soul - and you answer.'<br><br>-Star Richés"
+  }, {
+    quote: "'Art should comfort the disturbed and disturb the comfortable.'<br><br>-Banksy"
+  }, {
+    quote: "'Normality is a paved road; It's comfortable to walk, but no flowers grow'<br><br>—Vincent Van Gogh"
+  }, {
+    quote: "'What is done in love is done well.'<br><br>-Vincent Van Gogh"
+  }, {
+    quote: "'I would rather die of passion than of boredom.'<br><br>-Vincent Van Gogh"
+  }, ];
+
+  var randomQuotes = function() {
+    var getRandomInt = function(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      },
+      index = getRandomInt(0, arrayQ.length),
+      quote = arrayQ[index],
+      quoteElm = document.getElementById('quote');
+    if (quote) {
+      quoteElm.innerHTML = quote.quote;
+      arrayQ.splice(index, 1); // remove quote from array
+    }
+  };
+  setInterval(function() {
+    randomQuotes()
+  }, 3000);
+})();
+      </script>
 </body>
   <!--Footer-->
 <footer> 
