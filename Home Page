@@ -7,14 +7,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>My First Website</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="Javascript.js"></script>  
     </head>
-
+<!-- HEADER -->
 <header>
 <img src="output-onlinegiftools (1).gif" class="icon" style="width:100px;height:100px;">
 
     <header class="panel center opacity">
         <h1 class="name"><i>Elizahmendozart</i></h1>
-        
+        	<!-- Web Pages-->
         <a href="http://127.0.0.1/formm/form.php" class="bar-item button" style="margin: 10px">Home</a>
         <a href="http://127.0.0.1/formm/gallery.php" class="bar-item button" style="margin: 10px">Gallery</a>
         <a href="http://127.0.0.1/formm/guidelines.php" class="bar-item-button hide-small" style="margin: 10px">Guidelines</a>
@@ -22,22 +23,25 @@
         <a href="http://127.0.0.1/formm/contact.php" class="bar-item button hide-small" style="margin: 10px">Contact</a>
         <a href="http://127.0.0.1/formm/faq.php" class="bar-item button hide-small" style="margin: 10px">FAQ</a>
           </div>
+          	<!--Connection to Database-->
+            <form method="post" action="Database.php"></form>
         </div>
     </header>
 <br><br>
 <body>
-  
+  <!--Main BODY-->
+  <!--Mini Gallery-->
 <div id="About"> 
 
   <h1 style = "text-shadow:2px 2px 4px #ffffff"><b>Home</b></h1> <br><br>
 
       <div class="gallery">
       
-        <img src="belle.JPEG" alt="Belle from Beauty and the Beast" style="width:20%; padding: 10px">
+        <img src="belle.JPEG" alt="Belle from Beauty and the Beast" style="width:20%; padding: 10px;">
         <img src="IMG_20200122_175632.jpg" alt= "Blue" style="width:20%; padding: 10px">
-        <img src="Screenshot 2023-05-19 211621.png" alt="Art" style="width:14%;padding:10px">
+        <img src="Screenshot 2023-05-19 211621.png" alt="Art" style="width:15%;padding:10px">
           <img src="jasmine.JPEG" style="width:20%;padding: 10px">
-          <img src="IMG_20191212_094738~2.jpg" style="width:20%">
+          <img src="IMG_20191212_094738~2.jpg" style="width:20%;padding: 10px">
           <img src="girl.JPEG" style="width:21%;padding: 10px">
           <img src="IMG_20191114_103753_mh1573716219705.jpg" style="width:22%;padding: 10px">
           <img src="Screenshot 2023-05-19 224127.png" style="width:22%;padding:10px">
@@ -52,10 +56,11 @@
 
 <br><br><br><br><br><br><br>
 
-  <div class="about-col-1">
+  <!--Mini About-->
+  <div class="about-col-1" style= "padding: 20px;background-image:url(816760.jpg);background-size: cover;background-position: center;margin:0px;">
 <br><br>
       <a href="http://127.0.0.1/formm/aboutme.php" style = "border:none;border-radius:none;padding:none;float:left;">
-        <img src="MTXX_MH20230514_104509244.jpg" alt="pic of me" class="image" style="float:left;width:300px;height:400px;"></a>
+        <img src="MTXX_MH20230514_104509244.jpg" alt="pic of me" class="image" style="float:left;width:300px;height:400px;opacity:"></a>
     
       <div class="about-col-2">
 
@@ -98,10 +103,7 @@
 </div>
 </div>
 </div>
-
-<br><br><br><br><br><br>
-
-<!-----contact----------->
+<!-----Mini Contact Form----------->
 <div class = "divider" style="background-image: url(wp6262702.jpg); background-size: cover;">
 <div id="contact">
   <div class="container">
@@ -135,46 +137,11 @@
 </div>
 
   <br><br><br><br><br>
-
-<script>
-
-  var tablinks = document.getElementsByClassName("tab-links");
-  var tabcontents = document.getElementsByClassName("tab-contents");
-
-function opentab(tabname){
-  for(tablink of tablinks){
-    tablink.classList.remove("active-link");
-  }
-  for(tabcontent of tabcontents){
-  tabcontent.classList.remove("active-tab");
-  }
-  event.currentTarget.classList.add("active-link");
-  document.getElementById(tabname).classList.add("active-tab");
-} 
-
-const scriptURL = '<https://script.google.com/macros/s/AKfycbwaSO26sirCO8i1QaYSktGuCfOpVmTjinT7N47gekTrVDOqwo_cTXi1XooVFGd0GfPj/exec>'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg")
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response =>{
-        msg.innerHTML= "Message sent successfully!"
-        setTimeout(function(){
-          msg.innerHTML=""
-        },10000)
-        form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-
-</script>
 <h1 class="sub-title" style="font-size: 20px;text-align: center;text-shadow: 2px 2px 4px #c63791;margin-left: 1%;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php" style="text-align: center;">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
-
 </body>
-
+  <!--Footer-->
 <footer> 
+
   <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
   <p><i class="fa fa-phone fa-fw-xxlarge-margin"></i> Phone: +971 501231234</p>
   <p><i class="fa fa-light fa-envelope fa-fw-xxlarge-margin"> </i> Email: elizahsegismundo@gmail.com</p>
