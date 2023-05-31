@@ -1,5 +1,3 @@
-
-      
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");
     
@@ -34,4 +32,38 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
-    
+      (function() {
+        var arrayQ = [{
+          quote: "'The worst enemy to creativity is self-doubt.'<br><br>-Sylvia Plath"
+        }, {
+          quote: "'Though I am often in the depths of misery, there is still calmness, pure harmony, and music inside me.'<br><br>-Vincent Van Gogh"
+        }, {
+          quote: "'I have nature and art and poetry, and if that is not enough, what is enough?'<br><br>-Vincent Van Gogh"
+        }, {
+          quote: "'Art is when you hear a knocking from your soul - and you answer.'<br><br>-Star Richés"
+        }, {
+          quote: "'Art should comfort the disturbed and disturb the comfortable.'<br><br>-Banksy"
+        }, {
+          quote: "'Normality is a paved road; It's comfortable to walk, but no flowers grow'<br><br>—Vincent Van Gogh"
+        }, {
+          quote: "'What is done in love is done well.'<br><br>-Vincent Van Gogh"
+        }, {
+          quote: "'I would rather die of passion than of boredom.'<br><br>-Vincent Van Gogh"
+        }, ];
+      
+        var randomQuotes = function() {
+          var getRandomInt = function(min, max) {
+              return Math.floor(Math.random() * (max - min + 1)) + min;
+            },
+            index = getRandomInt(0, arrayQ.length),
+            quote = arrayQ[index],
+            quoteElm = document.getElementById('quote');
+          if (quote) {
+            quoteElm.innerHTML = quote.quote;
+            arrayQ.splice(index, 1); // remove quote from array
+          }
+        };
+        setInterval(function() {
+          randomQuotes()
+        }, 3000);
+      })();
