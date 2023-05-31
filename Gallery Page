@@ -102,7 +102,9 @@
     
       <br><br><br><br><br>
       <h1 class="sub-title" style="font-size: 20px;text-align: center;margin-left: 1%;text-shadow: 2px 2px 4px #c63791;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php"style="text-align: center;">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
-        <!--Footer-->
+      <br><br><br><br><br>
+<button onclick="scrollUp()" class="top">Scroll to Top</button>
+      <!--Footer-->
       <footer>
         <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
         <p><i class="fa fa-phone fa-fw-xxlarge-margin"></i> Phone: +971 501231234</p>
