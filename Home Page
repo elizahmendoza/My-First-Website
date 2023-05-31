@@ -140,7 +140,8 @@
 
   <br><br><br><br><br>
 <h1 class="sub-title" style="font-size: 20px;text-align: center;text-shadow: 2px 2px 4px #c63791;margin-left: 1%;">Have more questions? Just click this button!<br><br> <a href="http://127.0.0.1/formm/faq.php" style="text-align: center;">FAQ <img src="img_25486.png"style="width:17px;height:17px;style=text-align: center;"></a></h1>
-
+<br><br><br><br><br>
+<button onclick="scrollUp()" class="top">Scroll to Top</button>
 <script>
   
   (function() {
@@ -178,10 +179,18 @@
     randomQuotes()
   }, 3000);
 })();
+
+//Scroll to Top Button
+function scrollUp() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
       </script>
 </body>
   <!--Footer-->
 <footer> 
+<!--Scroll to Top Button-->
 
   <p><i class="fa fa-map-marker fa-fw-xxlarge-margin"></i> Abu Dhabi, UAE</p>
   <p><i class="fa fa-phone fa-fw-xxlarge-margin"></i> Phone: +971 501231234</p>
