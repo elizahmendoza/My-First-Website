@@ -1,0 +1,13 @@
+<?php
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="Website";
+$conn = mysqli_connect($servername, $username,$password,$dbname);
+if (!$conn) {
+die("Could Not Connect MySQL Server:" .mysql_error());
+}
+else {
+echo("<h1>Welcome to My Website!</h1>");
+}
+?>
