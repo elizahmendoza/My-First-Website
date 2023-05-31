@@ -7,14 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>My First Website</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="Javascript.js"></script>  
     </head>
     <header>
-
 <img src="output-onlinegiftools (1).gif" alt="icon" style="width:100px;height:100px;">
-
+    <!-- HEADER -->
     <header class="panel center opacity">
       <h1 class="name"><i>Elizahmendozart</i></h1>
-
+<!-- Web Pages-->
       <a href="http://127.0.0.1/formm/form.php" class="bar-item button" style="margin: 10px">Home</a>
         <a href="http://127.0.0.1/formm/gallery.php" class="bar-item button" style="margin: 10px">Gallery</a>
         <a href="http://127.0.0.1/formm/guidelines.php" class="bar-item-button hide-small" style="margin: 10px">Guidelines</a>
@@ -23,13 +23,16 @@
         <a href="http://127.0.0.1/formm/faq.php" class="bar-item button hide-small" style="margin: 10px">FAQ</a>
         
           </div>
+<!--Connection to Database-->
+        <form method="post" action="Database.php"></form>
+        </div>
         </div>
       <br><br><br>
 
-<h1 style = "text-shadow:2px 2px 4px #ffffff;font-size: 30px;"><b>Guidelines</b></h1> <br><br>
+<h1 style = "text-shadow:2px 2px 4px #ffffff;font-size: 30px;"><b>Guidelines</b></h1>
 </header> 
 <body>
-
+  <!--Main BODY-->
       <p class="guide" style="font-size:20px;"><i><b>♡ Fill out the form and send it to my email<br><br><br>
         ♡ Please include as many images as possible in your email. If there is anything specific you would like me to get inspired from, (e.g. environment for background or stock images for poses) please include them as well.<br><br><br>
         ♡ I will start on the piece only after the initial payment.<br><br><br>
