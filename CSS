@@ -121,7 +121,7 @@
   
   .about-col-1{
     flex-basis: 35%;
-    margin-left: 5%;
+    padding: 10px;
   }
   
   .about-col-2{
@@ -196,7 +196,7 @@
     left: 0;
     bottom: -8px;
     transition: 0.5s;
-    
+
   }
 
   .tab-links:hover::after {
@@ -282,10 +282,17 @@
 
 .guide {
     text-align: left;
-    margin-left:50px;
-    margin-right:100px;
+margin-left: 20%;
+margin-right: 20%;
+padding: 50px;
+border-radius: 25px;
     color:#971668;
     font-size: 20px;
+    background-image: url("ezgif-4-71232ce382.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .faq {
@@ -372,8 +379,18 @@ form input, form textarea {
 }
 
 div.divider {
-  background-image: url("https://wallpapercave.com/wp/wp6262702.jpg");
+  background-image: url("Untitled66_20200813010631.jpg");
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.fade {
+  margin: 50px;
+  padding: 50px;
+  background-image: url("ezgif-4-6a9f420775.gif");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 5px rgba(152, 152, 152, 0.53);
+  border-radius: 25px;
 }
